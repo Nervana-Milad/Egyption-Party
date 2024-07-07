@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+#home {
+  background-image: linear-gradient(rgba(214, 46, 51, 0.5) 0% 0%),
+    url("../images/events-heavenly-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu ul {
+  width: 0px;
+  background-color: black;
+}
+
+.menu ul li i {
+  font-size: 1.6rem;
+  transition: 0.5s;
+  padding: 1.25rem 1.25rem 0;
+  cursor: pointer;
+}
+
+.menu ul li a {
+  display: block;
+  color: #fff;
+  padding: 1.25rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.menu ul li i:hover,
+.menu ul li a:hover {
+  color: rgba(214, 46, 51);
+}
+
+#home .icon {
+  top: 30%;
+  left: 4.5rem;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+
+.content h2 {
+  font-size: 3.75rem;
+}
+
+.singers h3 {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+}
+
+.singers div {
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  background-color: #ccc;
+}
+
+.singers .singerInfo:not(:nth-child(2)) {
+  display: none;
+}
+
+#duration {
+  background-image: linear-gradient(rgba(214, 46, 51, 0.5) 0% 0%),
+    url("../images/invitation-2508607__340.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 330px;
+}
+
+.contact .social i {
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  color: black;
+  text-align: center;
+}
+
+.contact .social i:hover {
+  color: white;
+  background-color: rgba(214, 46, 51);
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: rgba(214, 46, 51);
+}
+
+textarea {
+  height: 10rem;
+}
+
+#chars {
+  color: rgba(214, 46, 51);
+}
+
+.btn-danger {
+  background-color: rgba(214, 46, 51);
+}
